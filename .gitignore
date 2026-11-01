@@ -1,0 +1,15 @@
+# Build output
+/target
+
+# Rendered media
+*.wav
+*.mp4
+
+# Keep the embedded demo, ignore local MIDI collections
+/midi/*.mid
+!/midi/demo.mid
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*.kate-swp

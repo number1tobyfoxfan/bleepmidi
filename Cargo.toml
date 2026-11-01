@@ -1,0 +1,14 @@
+[package]
+name = "bleepmidi"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Play MIDI files as PC-speaker beeps, or render them to WAV and video"
+repository = "https://github.com/number1tobyfoxfan/bleepmidi"
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+keywords = ["midi", "pc-speaker", "chiptune", "terminal", "ffmpeg"]
+categories = ["command-line-utilities", "multimedia::audio"]
+
+[dependencies]
+midly = "0.5.3"
